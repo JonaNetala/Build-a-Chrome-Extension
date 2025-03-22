@@ -158,3 +158,4 @@ This project was a fun and empowering experience, showcasing the real-world util
 
 📁 GitHub Repo:  
 [https://github.com/JonaNetala/Coronavirus-Immunity-Extension](https://github.com/JonaNetala/Coronavirus-Immunity-Extension)
+
