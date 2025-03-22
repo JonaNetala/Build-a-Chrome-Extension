@@ -3,13 +3,18 @@
     "name": "Coronavirus Immunity",
     "version": "0.1.0",
     "description": "A Chrome extension that alters coronavirus mentions on webpages.",
-    "host_permissions": [
-      "<all_urls>"
-    ],
+    "permissions": ["storage", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["script.js"],
+        "js": ["content.js"],
         "css": ["styles.css"]
       }
     ]
