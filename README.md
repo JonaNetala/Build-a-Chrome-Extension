@@ -1,6 +1,3 @@
-# Build-a-Chrome-Extension
-
-```markdown
 # 🛡️ CREA330 Module 5 Project - Coronavirus Immunity Chrome Extension
 
 Welcome to the **Coronavirus Immunity** extension — a Chrome tool built to protect users from the overwhelming presence of the word *coronavirus* across the web. Whether you want to *black it out*, *completely remove it*, or *highlight it with flair*, this extension gives you full control.
